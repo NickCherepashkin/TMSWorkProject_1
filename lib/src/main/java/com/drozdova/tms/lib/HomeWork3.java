@@ -8,6 +8,7 @@ public class HomeWork3 {
         task2();
         task3();
         task4();
+        task5(20);
     }
 
     public static void task1() {
@@ -40,9 +41,17 @@ public class HomeWork3 {
         str = str.replace("iOS", "Android");
         System.out.println(str);
     }
-    public static void task5() {
 
+    public static void task5(int num) {
+        if (num > 1) {
+            task5(num - 1);
+            System.out.println("I was called " + num + " times");
+        } else {
+            System.out.println("I was called " + num + " time");
+            return;
+        }
     }
+
     public static void task6() {
 
     }
