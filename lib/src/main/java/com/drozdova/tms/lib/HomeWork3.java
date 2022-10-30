@@ -1,5 +1,6 @@
 package com.drozdova.tms.lib;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class HomeWork3 {
@@ -9,6 +10,7 @@ public class HomeWork3 {
         task3();
         task4();
         task5(20);
+        task6();
     }
 
     public static void task1() {
@@ -53,9 +55,17 @@ public class HomeWork3 {
     }
 
     public static void task6() {
-
+        String str = "Information technology";
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 != 0) {
+                System.out.println(str.toUpperCase(Locale.ROOT));
+            } else {
+                System.out.println(str);
+            }
+        }
     }
-    public static void task7() {
 
+    public static void task7() {
+        
     }
 }
