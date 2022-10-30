@@ -11,6 +11,7 @@ public class HomeWork3 {
         task4();
         task5(20);
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -66,6 +67,7 @@ public class HomeWork3 {
     }
 
     public static void task7() {
-        
+        String str = "I am Android developer";
+        System.out.println(str.substring(5, 12));
     }
 }
