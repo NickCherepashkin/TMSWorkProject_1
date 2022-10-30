@@ -7,6 +7,7 @@ public class HomeWork3 {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -33,9 +34,11 @@ public class HomeWork3 {
             System.out.println(item);
         }
     }
-    
-    public static void task4() {
 
+    public static void task4() {
+        String str = "I am iOS developer";
+        str = str.replace("iOS", "Android");
+        System.out.println(str);
     }
     public static void task5() {
 
